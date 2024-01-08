@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 8% auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.body > p {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.img > img {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  display: block;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.svg {
+  margin-right: 15px;
+}
+.username {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.input {
+  width: 70%;
+}
+.password {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+@media only screen and (max-width: 400px) {
+  .container {
+    width: 80%;
+  }
+}
